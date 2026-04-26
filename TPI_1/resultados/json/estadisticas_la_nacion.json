@@ -11,7 +11,7 @@
             "audio": 1
         },
         "modelo_spacy_utilizado": "es_core_news_lg",
-        "fecha_ejecucion": "2026-04-16T19:11:57.295340",
+        "fecha_ejecucion": "2026-04-26T14:51:50.470536",
         "parametros_entrada": {
             "urls_web": [
                 "https://www.lanacion.com.ar/economia/se-promulgo-la-reforma-laboral-cual-es-el-impacto-real-en-la-vida-de-las-empresas-y-de-sus-empleados-nid06032026/",
