@@ -12,6 +12,7 @@ watermark
 # --- Análisis de datos ---
 pandas
 numpy
+scikit-learn
 
 # --- Web scraping ---
 requests
@@ -19,10 +20,32 @@ beautifulsoup4
 trafilatura
 scrapling[all]>=0.4.2
 playwright
+yt-dlp
+
+# --- Audio y transcripción ---
+openai-whisper
+faster-whisper
+torch
+torchaudio
+transformers
+accelerate
+
+# NOTA: `ffmpeg` y `ffprobe` se instalan a nivel sistema, no con `pip`.
+# Windows: winget install Gyan.FFmpeg
+# Ubuntu/Debian: sudo apt install ffmpeg
+# macOS: brew install ffmpeg
 
 # --- PLN ---
 nltk
 spacy
+# Nota: los cuadernos de spaCy (003) y el lab integrador (006) usan `es_core_news_sm`.
+# Instalación: `python -m spacy download es_core_news_sm`
+#
+# El cuaderno 008 (representaciones semánticas) requiere el modelo mediano,
+# que incluye vectores de palabras pre-entrenados (el modelo sm NO los tiene).
+# Instalación: `python -m spacy download es_core_news_md`
+stanza
+spacy-stanza
 
 # --- Visualización ---
 matplotlib
