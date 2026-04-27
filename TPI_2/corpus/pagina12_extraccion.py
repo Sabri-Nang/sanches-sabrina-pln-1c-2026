@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 data = []
 
-urls =  ["https://www.pagina12.com.ar/2026/03/31/reforma-laboral-tras-el-fallo-la-cgt-buscara-tumbar-toda-la-ley/",
+urls =  ["https://www.pagina12.com.ar/2026/02/13/todos-los-derechos-con-los-que-arrasa-la-reforma-laboral-de-milei/",
          "https://www.pagina12.com.ar/2026/03/06/milei-promulgo-su-reforma-laboral-uno-por-uno-todos-los-derechos-que-pierden-los-trabajadores/",
          "https://www.pagina12.com.ar/2026/02/21/el-futuro-del-trabajo-con-la-reforma-laboral/",
          "https://www.pagina12.com.ar/2026/03/06/el-impacto-de-la-reforma-laboral/"]
