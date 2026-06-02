@@ -3,7 +3,7 @@ venv/
 venv_*/
 env/
 .venv/
-venv_habla_lab1
+/venv_habla_lab1/
 
 # Conda
 envs/
@@ -17,3 +17,5 @@ __pycache__/
 # IDEs
 .vscode/
 .idea/
+
+.jsonc
