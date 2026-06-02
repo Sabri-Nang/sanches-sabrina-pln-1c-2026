@@ -20,3 +20,10 @@ Thumbs.db
 *.key
 
 .gradio/
+
+# Ignorar archivos de metadatos y temporales de punto (e.g. AppleDouble macOS)
+**/._*
+
+.agents/
+
+vectors
