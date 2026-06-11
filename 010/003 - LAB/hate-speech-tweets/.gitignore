@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+venv_*/
+env/
+.venv/
+/venv_habla_lab1/
+
+# Conda
+envs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+.jsonc
